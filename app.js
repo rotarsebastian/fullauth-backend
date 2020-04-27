@@ -15,7 +15,7 @@ app.get('/ssr', (req, res) => {
     return res.send(ssrPage);
 })
 
-const PORT = process.env.PORT || 8088;
+const PORT = process.env.PORT || 80;
 
 // #############################################
 app.listen(PORT, (err, res) => {
